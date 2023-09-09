@@ -1,5 +1,7 @@
 body {
-    background-image: url(globale.jpg);
+    height: 100%;
+    width: 100%;
+    background-image: url(media/globale.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;

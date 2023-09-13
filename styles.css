@@ -14,13 +14,11 @@ body {
 }
 
 .content {
-    padding: 5px;
-    padding-left: 40px;
-    padding-right: 20px;
+    padding: 5px 40px;
     background-color: #101010;
     size: 100%;
     display: block;
-    overflow: auto;
+    overflow: scroll;
     text-align: left;
 }
 
@@ -34,7 +32,8 @@ body {
 
 img {
     overflow-clip-margin: content-box;
-    overflow: clip;
+    size: 100%;
+    width: auto;
 }
 
 .lain {

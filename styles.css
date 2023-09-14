@@ -1,9 +1,10 @@
 body {
     height: 100%;
-    width: 100%;
+    width: auto;
     background-image: url(media/globale.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
     color: white;
@@ -16,10 +17,9 @@ body {
 .content {
     padding: 5px 40px;
     background-color: #101010;
-    size: 100%;
-    display: block;
-    overflow: scroll;
+    box-sizing: border-box;
     text-align: left;
+    width: 100%;
 }
 
 .slidin {
@@ -31,11 +31,14 @@ body {
 }
 
 img {
-    overflow-clip-margin: content-box;
-    size: 100%;
-    width: auto;
+    box-sizing: border-box;
+    display: inline;
+    position: static;
+    align-items: left;
 }
 
 .lain {
     padding: 10px;
+    width: auto;
+    max-width: 350px;
 }

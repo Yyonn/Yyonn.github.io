@@ -32,7 +32,7 @@ body {
 
 .content {
     margin-inline: 10px;
-    padding: 5px 40px;
+    padding: 17px 40px 25px 40px;
     background-color: #101010;
     box-sizing: border-box;
     text-align: left;
@@ -55,6 +55,10 @@ body {
 /*    width: -webkit-fill-available; */
 }
 
+p {
+    font-size: 18px;
+}
+
 img {
     box-sizing: border-box;
     display: inline;
@@ -65,5 +69,5 @@ img {
 .lain {
     padding: 10px;
     width: auto;
-    max-width: 350px;
+    max-width: 400px;
 }

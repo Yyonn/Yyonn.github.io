@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 17px;
 }
 
 .title {
@@ -22,12 +23,14 @@ body {
     width: 100%;
 }
 
-.slidin {
-    display: flex;
-    text-align: center;
-    width: -webkit-fill-available;
-    padding: 1em;
+.border {
     background: linear-gradient(to left, turquoise, rgba(0, 255, 0, 0.473))
+}
+
+.slidin {
+    font-size: 30px;
+    padding: 10px;
+/*    width: -webkit-fill-available; */
 }
 
 img {

@@ -1,30 +1,45 @@
 body {
     height: 100%;
     width: auto;
+    background-color: black;
     background-image: url(media/globale.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #ffffff;
     font-size: 17px;
+    margin: 0px;
+}
+
+.header {
+    top: 0;
+    box-sizing: border-box;
+    background: #101010;
+    width: 100%;
+    padding: 1px;
+    box-shadow: 0px 1px 1px 0px;
 }
 
 .title {
     text-align: center;
+    padding-left: 60px;
+    color: #ffffff;
+    position: relative;
 }
 
 .content {
+    margin-inline: 10px;
     padding: 5px 40px;
     background-color: #101010;
     box-sizing: border-box;
     text-align: left;
-    width: 100%;
 }
 
 .border {
-    background: linear-gradient(to left, turquoise, rgba(0, 255, 0, 0.473))
+    background: linear-gradient(to left, turquoise, rgba(0, 255, 0, 0.473));
+    margin-inline: 10px;
 }
 
 .slidin {

@@ -13,6 +13,8 @@ body {
 }
 
 .header {
+    z-index: 7;
+    position: fixed;
     top: 0;
     box-sizing: border-box;
     background: #101010;
@@ -36,12 +38,18 @@ body {
     text-align: left;
 }
 
+.fyrrr {
+    position: relative;
+    padding: 100px 0px 40px;
+}
+
 .border {
     background: linear-gradient(to left, turquoise, rgba(0, 255, 0, 0.473));
     margin-inline: 10px;
 }
 
 .slidin {
+    z-index: 1;
     font-size: 30px;
     padding: 10px;
 /*    width: -webkit-fill-available; */

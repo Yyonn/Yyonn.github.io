@@ -1,24 +1,25 @@
 /* oh my god css is the bane of my existence */
 
 body {
-    height: 100%;
-    width: auto;
+/*    height: 100%;
+    width: auto;*/
     background-color: black;
     background-image: url(media/globale.jpg);
+    background-position-x: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 100vh;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     font-size: 17px;
     margin: 0px;
+    /* Inter front page required */
 }
 
 .header {
     z-index: 7;
     position: fixed;
     top: 0;
-    box-sizing: border-box;
     background: #101010;
     width: 100%;
     padding: 1px;
@@ -27,14 +28,16 @@ body {
 
 .title {
     text-align: center;
-    padding-left: 60px;
+    padding-inline: auto;
     color: #ffffff;
     position: relative;
 }
 
 .content {
-    margin-inline: 10px;
-    padding: 17px 40px 25px 40px;
+    margin-inline: 15px;
+    /*padding: 17px 40px 25px 40px;*/
+    padding: 17px;
+    padding-inline: 40px;
     background-color: #101010;
     box-sizing: border-box;
     text-align: left;
@@ -42,19 +45,19 @@ body {
 
 .fyrrr {
     position: relative;
-    padding: 100px 0px 40px;
+    padding: 96px 0px 40px;
 }
 
 .border {
     background: linear-gradient(to left, turquoise, rgba(0, 255, 0, 0.473));
-    margin-inline: 10px;
+    margin: 4px 15px;
 }
 
 .slidin {
     z-index: 1;
     font-size: 30px;
     padding: 10px;
-/*    width: -webkit-fill-available; */
+/* width: -webkit-fill-available; */
 }
 
 p {
@@ -70,6 +73,8 @@ img {
 
 .lain {
     padding: 10px;
-    width: auto;
+    padding-top: 20px;
+    width: 100%;
     max-width: 400px;
+    box-sizing: border-box;
 }
